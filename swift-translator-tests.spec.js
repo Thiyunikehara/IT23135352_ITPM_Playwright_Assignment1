@@ -68,7 +68,7 @@ const TEST_DATA = {
     { tcId: 'Pos_Fun_0024', name: 'Command', input: 'oba enna. aevith yanna.', expected: 'ඔබ එන්න. ඇවිත් යන්න.' },
   ],
 
-  // ✅ Negative tests: we DO NOT SKIP.
+  //Negative tests: we DO NOT SKIP.
   // These tests PASS when the system is incorrect (bug validation).
   negative_bugValidation: [
     {
@@ -228,7 +228,7 @@ test.describe('SwiftTranslator - Singlish to Sinhala (Your Excel Test Cases)', (
     }
   });
 
-  // ✅ Negative tests that PASS when the BUG is present
+  // Negative tests that PASS when the BUG is present
   // (We validate that output is NOT equal to the correct expected output)
   test.describe('Negative Functional Tests (Bug Validation - Should show incorrect behavior)', () => {
     for (const tc of TEST_DATA.negative_bugValidation) {
@@ -243,7 +243,7 @@ test.describe('SwiftTranslator - Singlish to Sinhala (Your Excel Test Cases)', (
     }
   });
 
-  // ✅ UI test that will PASS even if partial output is sometimes delayed
+  // UI test that will PASS even if partial output is sometimes delayed
   // We check: output should eventually appear while typing OR at least after completing input,
   // and final full output should match.
   test.describe('UI Test', () => {

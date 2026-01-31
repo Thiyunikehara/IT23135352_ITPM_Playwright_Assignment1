@@ -3,7 +3,7 @@
 ## Repository Link
 [Your GitHub repository URL will go here after you upload this project]
 
-Example: https://github.com/yourusername/swift-translator-tests
+REPOSITORY_URL: https://github.com/Thiyunikehara/IT23135352_ITPM_Playwright_Assignment1
 
 ## How to Create and Upload to GitHub
 
